@@ -33,42 +33,68 @@ layout: default
 
 <main class="content" role="main">
 
+  <div class="cf frame">
   <!-- Hello -->
-  <div class="container">
-    <h2>Hello</h2>
-    <p>Hello text.</p>
-    <hr>
+    <article class="post" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <!-- <h2 class="post-title" itemprop="name">Hello</h2> -->
+        </header>
+        <section class="post-excerpt">
+          <p>Hello text.</p>
+        </section>
+      </div>
+    </article>
+
+    <!-- Projects -->
+    <article class="post" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name">Projects</h2>
+        </header>
+        <section class="post-excerpt">
+          <p>Projects go here.</p>
+        </section>
+      </div>
+    </article>
+
+    <!-- About -->
+    <article class="post" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name">About</h2>
+        </header>
+        <section class="post-excerpt">
+          <p>About me.</p>
+        </section>
+      </div>
+    </article>
+
+    <!-- Inspo -->
+    <article class="post" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name">Inspo</h2>
+        </header>
+        <section class="post-excerpt">
+          <p>Add bullet list of my favorite inspo.</p>
+        </section>
+      </div>
+    </article>
+
+    <!-- Contact -->
+    <article class="post" role="article">
+      <div class="article-item">
+        <header class="post-header">
+          <h2 class="post-title" itemprop="name">Contact Me</h2>
+        </header>
+        <section class="post-excerpt">
+          <p>Drop a line.</p>
+        </section>
+      </div>
+    </article>
+
   </div>
-
-  <!-- About -->
-  <div class="container">
-    <h2>About</h2>
-    <p>All about Stacy text.</p>
-    <hr>
-  </div>
-
-  <!-- Projects -->
-  <div class="container">
-    <h2>Projects</h2>
-    <p>projects go here.</p>
-    <!-- Add felxbox, etc. -->
-    <hr>
-  </div>
-
-  <!-- Inspo -->
-  <div class="container">
-    <h2>Inspo</h2>
-    <p>Add bullet list of my favorite inspo.</p>
-    <hr>
-  </div>
-
-  <!-- Contact -->
-  <div class="container">
-    <h2>Contact Me</h2>
-    <p>drop a line.</p>
-
-  </div>
-
 
   {% if site.tags.featured %}
   <h5 class="index-headline featured"><span>Featured</span></h5>
