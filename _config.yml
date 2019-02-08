@@ -6,7 +6,7 @@ gems:
 # Site settings
 title: "Stacy Montemayor"
 description: > # this means to ignore newlines until "email:"
-   data munging + visualizations for storytelling
+   data wrangling + visualizations for storytelling
 
 email: stacy.montemayor@gmail.com
 #blog logo
