@@ -18,7 +18,7 @@ cover: "/assets/images/cover_image.png"
 
 name: 'Stacy Montemayor'
 author: 'Stacy Montemayor'
-author_image: "/assets/images/author.jpg"
+# author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
