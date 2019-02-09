@@ -1,5 +1,5 @@
 # Build settings
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
 
@@ -10,8 +10,9 @@ description: > # this means to ignore newlines until "email:"
 
 email: stacy.montemayor@gmail.com
 #blog logo
-logo: "/assets/images/sm_logo.jpg"
+# logo: "/assets/images/sm_logo.jpg"
 float_logo: true # true, false (default)
+markdown: kramdown
 
 # blog cover
 cover: "/assets/images/cover_image.png"
@@ -22,10 +23,11 @@ author: 'Stacy Montemayor'
 
 paginate:	5
 
-url: "http://myblog.***.***" # the base hostname & protocol for your site
+url: "http://teacupwoozy.github.io" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
-twitter_handle: '@teacupwoozy'
+twitter_username: teacupwoozy
+github_username: teacupwoozy
 
 #fill in disqus shortname to use disqus
 #disqus: disqus-shortname

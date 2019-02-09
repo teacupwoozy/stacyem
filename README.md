@@ -1,2 +1,2 @@
-Dev for portfolio website
-Not yet deployed
+Portfolio website for Stacy Montemayor.
+Live site at [teacupwoozy.github.io](teacupwoozy.github.io).
