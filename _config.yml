@@ -16,6 +16,7 @@ markdown: kramdown
 
 # blog cover
 cover: "/assets/images/cover_image.png"
+spdcover: "/assets/images/spd.jpg"
 
 name: 'Stacy Montemayor'
 author: 'Stacy Montemayor'
