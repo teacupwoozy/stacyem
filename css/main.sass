@@ -51,7 +51,6 @@ li
 .links
   color: #000
   text-decoration: none
-  list-style-type: none
   &:hover
     color: #4c4c4c
 
@@ -185,6 +184,11 @@ p
       font-size: 20px
       line-height: 1.3
       color: #4c4c4c
+      a
+        color: #000
+        text-decoration: none
+        &:hover
+          color: #4c4c4c
     .post-meta
       font-size: 14px
       color: #b3b3b1
@@ -530,6 +534,11 @@ p
       @include box-sizing(border-box)
       @include respond-to(800)
         width: 100%
+      a
+        color: #000
+        text-decoration: none
+        &:hover
+          color: #4c4c4c
       .index-headline
         padding-bottom: 32px
       .site-footer
